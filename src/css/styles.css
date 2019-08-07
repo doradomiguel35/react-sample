@@ -1,0 +1,317 @@
+@font-face {
+  font-family: Anton;
+  src: url('../fonts/Anton-Regular.ttf');
+}
+@font-face {
+  font-family: Questrial;
+  src: url('../fonts/Questrial-Regular.ttf');
+}
+@font-face {
+  font-family: Russo;
+  src: url('../fonts/RussoOne-Regular.ttf');
+}
+#wpadminbar {
+  display: none !important;
+}
+.uk-container.header-hero-container {
+  background-image: url('../images/header-background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 620px;
+  max-width: 100%;
+  padding: 0 0 0 0;
+  margin: -0.4% 0 0 0;
+}
+#kyokushin-navbar {
+  box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  width: 93%;
+  transition: all 1s ease;
+}
+.nav-logo {
+  height: 60px;
+  cursor: pointer;
+}
+.uk-navbar-nav li a {
+  font-family: 'Questrial';
+  font-size: 14px;
+  color: #000000;
+}
+.uk-navbar-nav li a:hover {
+  border-bottom: 3px solid #BF0426;
+  transition: border-bottom 0.25s;
+}
+.uk-offcanvas-bar .uk-nav.uk-nav-default li a {
+  font-family: 'Questrial';
+  font-size: 20px;
+  color: #ffffff;
+}
+.toggle-menu-resp {
+  display: none;
+}
+.uk-navbar-center {
+  width: 100%;
+}
+.uk-navbar-center .uk-navbar-nav {
+  width: 100%;
+}
+.uk-navbar-center .uk-navbar-nav .uk-h1.uk-margin-small-top {
+  width: 100%;
+}
+.uk-h1 {
+  font-family: 'Russo';
+  font-size: 60px;
+  color: #262626;
+  text-align: center;
+}
+.uk-h1.trending-head {
+  text-align: left;
+}
+.uk-h1 a {
+  color: #262626;
+  text-decoration: none;
+}
+.header-hero-text {
+  font-family: 'Questrial';
+  font-size: 25px;
+  color: #ffffff;
+  width: 75%;
+  text-align: center;
+  margin-left: 13%;
+}
+.header-read-btn {
+  font-family: 'Anton';
+  font-size: 19px;
+  color: #ffffff;
+  background-color: #BF0426;
+  width: 13%;
+  height: 60px;
+  border: 0px;
+  padding-top: 2%;
+  text-align: center;
+  transition: background-color 1s;
+}
+.header-read-btn:hover {
+  text-decoration: none;
+  background-color: #BB9580;
+  color: #000000;
+}
+hr {
+  border-bottom: 2px solid #000000;
+}
+html {
+  scroll-behavior: smooth;
+}
+.uk-overlay {
+  padding: 0 30px 0 0;
+}
+#content-direct {
+  scroll-behavior: smooth;
+}
+.blog-title {
+  font-family: 'Russo';
+  text-align: left;
+  font-size: 30px;
+  color: #262626;
+}
+.blog-title.more-blogs-head {
+  font-size: 40px;
+}
+.blog-title.blog-title-single {
+  font-size: 80px;
+  color: #D9D9D9;
+  text-align: center;
+}
+.blog-title.blog-title-single.blog-content {
+  font-family: 'Questrial';
+  font-size: 23px;
+  color: #363636;
+  text-align: justify;
+}
+.blog-title a {
+  color: #262626;
+  text-decoration: none;
+}
+.blog-title a:hover {
+  border-bottom: 4px solid #8A240B;
+  transition: border-bottom 0.25s ease;
+}
+.blog-date-time {
+  font-family: 'Questrial';
+  font-size: 15px;
+  color: #949494;
+}
+.comment-author {
+  font-family: 'Questrial';
+  font-size: 20px;
+}
+.comment-metadata a {
+  font-family: 'Questrial';
+  font-size: 25px;
+  color: #262626;
+}
+.edit-link {
+  margin-left: 4%;
+  border: 1px solid #91BED4;
+  padding: 0.5% 2.5% 0.5% 2.5%;
+  border-radius: 13px;
+  background-color: #91BED4;
+  cursor: pointer;
+}
+.edit-link a {
+  font-size: 15px;
+  text-decoration: none;
+}
+.edit-link:hover {
+  border: 1px solid #304269;
+  background-color: #304269;
+  transition: background-color 0.25s ease;
+}
+.edit-link:hover a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.reply {
+  border: 1px solid #91BED4;
+  padding: 1.5% 2.5% 1.5% 2.5%;
+  border-radius: 13px;
+  background-color: #009DBF;
+  cursor: pointer;
+  width: 20%;
+  margin-top: 2%;
+  text-align: center;
+}
+.reply a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'Russo';
+}
+.reply:hover {
+  border: 1px solid #304269;
+  background-color: #304269;
+  cursor: pointer;
+}
+.comment {
+  margin-bottom: 10%;
+}
+.commentlist {
+  width: 75%;
+}
+.comment-content {
+  min-height: 100px;
+  background-color: #D9E8F5;
+  padding: 3%;
+  border-radius: 20px;
+}
+.comment-respond {
+  font-family: 'Questrial';
+}
+.comment-respond h3 {
+  font-family: 'Questrial';
+}
+.comment-form .logged-in-as a:nth-child(2) {
+  border: 1px solid #91BED4;
+  padding: 1.5% 2.5% 1.5% 2.5%;
+  border-radius: 13px;
+  background-color: #91BED4;
+  cursor: pointer;
+  width: 20%;
+  margin-top: 2%;
+  text-align: center;
+  color: #000000;
+}
+.comment-form .logged-in-as a:nth-child(2):hover {
+  border: 1px solid #304269;
+  background-color: #304269;
+  transition: background-color 0.25s ease;
+  color: #ffffff;
+  text-decoration: none;
+}
+.comment-form .comment-form-comment textarea {
+  width: 88%;
+}
+.comment-form .form-submit .submit {
+  font-family: 'Russo';
+  color: #ffffff;
+  border: 1px solid #91BED4;
+  padding: 1.5% 2.5% 1.5% 2.5%;
+  border-radius: 13px;
+  background-color: #009DBF;
+  cursor: pointer;
+  width: 25%;
+  margin-top: 2%;
+  text-align: center;
+}
+.comment-form .form-submit .submit:hover {
+  border: 1px solid #304269;
+  background-color: #304269;
+  cursor: pointer;
+}
+.footer-bg {
+  background-image: url('../images/footer-background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  max-width: 100%;
+  height: 50px;
+  margin-top: 12%;
+}
+.footer-text {
+  font-family: 'Questrial';
+}
+@media only screen and (max-width: 768px) {
+  .nav-left,
+  .nav-right {
+    display: none;
+  }
+  .toggle-menu-resp {
+    display: block;
+  }
+  .header-read-btn {
+    width: 60%;
+  }
+  .comment-respond {
+    width: 85%;
+    margin-left: 8%;
+  }
+  .blog-title.blog-title-single {
+    font-size: 45px;
+  }
+  .comment-metadata {
+    margin-bottom: 4%;
+  }
+  .uk-grid-large > * {
+    padding-left: 0px;
+  }
+  .uk-grid-large {
+    margin-left: 0px;
+  }
+  .uk-grid > * {
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 570px) {
+  .uk-h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .blog-title-single.blog-title-single {
+    font-size: 25px;
+  }
+  .comment-form .form-submit .submit {
+    width: 50%;
+  }
+  .uk-navbar-center {
+    width: 74%;
+  }
+  .uk-navbar-center:not(:only-child) {
+    left: 37%;
+  }
+  .uk-h1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 515px) {
+  .uk-navbar-center {
+    width: 60%;
+  }
+}

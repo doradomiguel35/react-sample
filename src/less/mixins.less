@@ -1,0 +1,45 @@
+// mixins
+.responsive-max(@maxWidth,@rules){
+	@media only screen and (max-width: @maxWidth){
+		@rules();
+	}
+}
+
+.responsive-min(@minWidth, @rules){
+	@media only screen and (min-width: @minWidth){
+		@rules();
+	}
+}
+
+
+
+.setMargin(@top, @right, @bottom, @left){
+	margin: @top @right @bottom @left;
+}
+
+.setPadding(@top, @right, @bottom, @left){
+	padding: @top @right @bottom @left;
+}
+
+.setBackgroundSize(@width, @height){
+	background-size: @width @height;
+}
+
+.setBackgroundColor(@color){
+  background-color: @color;
+}
+
+.setFlex(@width){
+	flex: 0 0 @width;
+}
+
+.setColumnMaxWidth(@flex,@width){
+	flex: 0 0 @flex;
+	max-width: @width;
+}
+
+.setFont(@font){
+	font-family: @font;
+}
+
+// mixins
