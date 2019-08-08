@@ -10,9 +10,6 @@
   font-family: Russo;
   src: url('../fonts/RussoOne-Regular.ttf');
 }
-#wpadminbar {
-  display: none !important;
-}
 .uk-container.header-hero-container {
   background-image: url('../images/header-background.jpg');
   background-size: 100% 100%;

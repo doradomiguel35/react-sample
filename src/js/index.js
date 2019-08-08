@@ -28,6 +28,14 @@ $(document).ready(()=>{
 
 		}
 
+		else if(windowWidth >= 1440){
+			$('#kyokushin-navbar').css('width', '93%');
+		}
+
+		else if(windowWidth <= 425){
+			$('#kyokushin-navbar').css('width', '81%');
+		}
+
 
 	}
 
